@@ -29,6 +29,6 @@ int main() {
 
   // display the total cost to the user
   std::cout << "\n";
-  std::cout << "The total cost is = "
-  << std::setprecision(2) << std::fixed << totalcost <<  "$" << std::endl;
+  std::cout << "The total cost is = $"
+  << std::setprecision(2) << std::fixed << totalcost << std::endl;
 }
